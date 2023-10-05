@@ -1,0 +1,202 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 2px 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.miu-it{
+    display: flex;
+    border-left: 3px solid gray;
+    margin: 20px ;
+    padding: 10px ;
+    text-align: left;
+    color: black;
+}
+
+.header a {
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 20px;
+}
+
+
+.header a.logo {
+  font-size: 1px;
+  font-weight: bold;
+  width: 2px;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.welcom_box {
+  text-align: center;
+  padding: 50px 0;
+  height: 200px;
+  font-size: 50px;
+  background-color: rgb(5, 73, 73);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.welcom_box p {
+  position: relative;
+  z-index: 1;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  margin: 20px;
+}
+
+.login-right, .login-left {
+  flex: 1;
+  padding: 200px;
+  
+}
+
+.login-right {
+  padding: 2px 100px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: gray;
+
+}
+
+.login-left{
+    padding-top: 2px ;
+    border-right: 1px solid lightgray ;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.login-label {
+  color: darkgray;
+  padding-bottom: 10px;
+}
+
+.azure-link {
+  display: flex;
+  justify-content: center;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.login-using {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+  border-top: 1px solid lightgray;
+  padding: 10px 0;
+}
+
+label {
+  color: darkgray;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.forgot-password {
+  color: lightblue;
+  text-align: right ;
+  padding-left: 185px;
+
+}
+
+.login-button, .submit-ticket-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+.submit-ticket-button{
+    width: 30%;
+
+}
+
+.login-left-text {
+  color: darkgray;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .logo-container {
+    margin-bottom: 20px;
+  }
+
+  .header-right {
+    float: none;
+  }
+
+
+}
+
+h3 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid lightgray; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    font-size: 13px;
+    color: lightgray;
+    padding-top: 20px;
+ } 
+ 
+ h3 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
